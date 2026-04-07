@@ -1,0 +1,81 @@
+=== C-enso 2026: Sistema Nacional de Estadística ===
+Seleccione estructura de datos para esta sesión:
+1. Arreglos Dinámicos
+2. Listas Enlazadas
+Selección: 2
+Estructura seleccionada: Listas Enlazadas. Cargando datos iniciales...
+Datos cargados exitosamente desde encuestas_50.txt.
+
+MENÚ PRINCIPAL
+1. Registrar nuevo hogar y habitantes
+2. Buscar hogar por ID o Dirección
+3. Generar reporte estadístico (Localidad/Región/Nacional)
+4. Eliminar/Corregir registro de hogar
+5. Exportar reporte a archivo (.txt)
+6. Salir
+Seleccione una opción: 1
+
+[REGISTRO DE HOGAR]
+Ingrese ID del hogar: 51
+Ingrese dirección: Av_Espana_1680
+Ingrese tipo de vivienda (1:Casa, 2: Depto, 3: Pieza, 4:Otro): 2
+Ingrese servicios (Suma 1: Luz, 2: Agua, 4: Internet): 7
+¿Cuántos habitantes desea registrar en este hogar?: 2
+
+Dato Habitante 1:
+Nombre: Pedro_Pascal
+Edad: 48
+Género (M/F/N): M
+Nivel Educacional (B/M/T/U/P): U
+Ingresos Mensuales ($): 1500000
+
+Dato Habitante 2:
+Nombre: Monkey_D_Luffy
+Edad: 19
+Género (M/F/N): M
+Nivel Educacional (B/M/T/U/P): P
+Ingresos Mensuales ($): 2200000
+
+Hogar 51 registrado.
+Jefe de Hogar detectado: Monkey_D_Luffy (Mayores ingresos: $2200000).
+Ingreso per cápita del hogar: $1850000.
+
+MENÚ PRINCIPAL
+1. Registrar nuevo hogar y habitantes
+2. Buscar hogar por ID o Dirección
+3. Generar reporte estadístico (Localidad/Región/Nacional)
+4. Eliminar/Corregir registro de hogar
+5. Exportar reporte a archivo (.txt)
+6. Salir
+Seleccione una opción: 3
+Nivel del reporte (1: Localidad, 2: Región, 3: Nacional): 1
+Ingrese nombre de la Localidad: Valparaiso
+
+=== REPORTE LOCALIDAD: Valparaiso ===
+Estructura utilizada: Listas Enlazadas
+Tiempo de proceso: 0.0452 segundos
+
+ANÁLISIS HABITACIONAL
+Total Hogares: 4
+Índice de Gini (Hacinamiento): 0.25
+Entropía de Shannon (Vivienda): 0.81 bits
+Cobertura Total Servicios: 50.0%
+
+ANÁLISIS SOCIOECONÓMICO
+Promedio Ingreso Per Cápita Hogar: $444.658
+Edad Promedio Jefes de Hogar: 49.0 años
+Desviación Estándar Edad Jefes: 10.7
+
+DISTRIBUCIÓN EDUCACIONAL (Jefes de Hogar)
+Básica: 25% | Media: 25% | Técnica: 0% | Univ: 50% | Post: 0%
+
+MENÚ PRINCIPAL
+1. Registrar nuevo hogar y habitantes
+2. Buscar hogar por ID o Dirección
+3. Generar reporte estadístico (Localidad/Región/Nacional)
+4. Eliminar/Corregir registro de hogar
+5. Exportar reporte a archivo (.txt)
+6. Salir
+Seleccione una opción: 0
+Liberando memoria de Listas Enlazadas...
+Saliendo del programa...
